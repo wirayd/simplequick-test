@@ -5,4 +5,141 @@
  */
 
 @import '../packages/ext-theme-neptune/build/resources/ext-theme-neptune-all.css';
-
+ .message{
+     background-image: url("icon/message.png");
+     background-size: 14px; background-repeat: no-repeat; background-position: top 0px center;
+ }
+ .message_wh{
+     background-image: url("icon/message_white.png");
+     background-size: 14px; background-repeat: no-repeat; background-position: top 0px center;
+ }
+ .messageMain{
+     background-image: url("icon/inbox.png");
+     background-size: 18px; background-repeat: no-repeat; background-position: top -1px center;
+ }
+ .contact{
+     background-image: url("icon/contact.png");
+     background-size: 40px; background-repeat: no-repeat; background-position: top 0px center;
+     border-style: none;
+ }
+ .task{
+     background-image: url("icon/task.png");
+     background-size: 14px; background-repeat: no-repeat; background-position: top 0px center;
+     border-style: none;
+ }
+ .task_wh{
+     background-image: url("icon/task_white.png");
+     background-size: 14px; background-repeat: no-repeat; background-position: top 0px center;
+     border-style: none;
+ }
+ .cloud{
+     background-image: url("icon/cloud-lightning.png");
+     background-size: 18px; background-repeat: no-repeat; background-position: top 0px center;
+     border-style: none;
+ }
+ .search{
+     background-image: url("icon/search.png");
+     background-size: 14px; background-repeat: no-repeat; background-position: top 0px center;
+     border-style: none;
+ }
+ 
+   /* Specify the background color to be shown when hovering over checkbox */
+   .checkkk:hover input ~ .w3docs {
+     background-color: gray;
+   }
+   /* Specify the background color to be shown when checkbox is active */
+   .checkkk input:active ~ .w3docs {
+     background-color: white;
+   }
+   /* Specify the background color to be shown when checkbox is checked */
+   .checkkk input:checked ~ .w3docs {
+     background-color: orange;
+   }
+ .taskMain{
+     background-image: url("icon/task1.png");
+     background-size: 18px; background-repeat: no-repeat; background-position: top -1px center;
+     border-style: none;
+ }
+ .time{
+     background-image: url("icon/time.png");
+     background-size: 15px; background-repeat: no-repeat; background-position: top 0px center;
+     border-style: none;
+ }
+ .ellipsis{
+     background-image: url("icon/ellipsis.png");
+     background-size: 15px; background-repeat: no-repeat; background-position: top 0px center;
+     border-style: none;
+ }
+ .editable{
+     background-image: url("icon/editable.png");
+     background-size: 15px; background-repeat: no-repeat; background-position: top 0px center;
+     border-style: none;
+ }
+ .searchBorder .x-form-trigger-wrap-default {
+     border-width:0px
+ }
+ .hr-lines{
+     position: relative;
+     max-width: 500px;
+     text-align: center;
+   }
+   
+ .hr-lines:before{
+     content:" ";
+     height: 1px;
+     width: 165px;
+     background: #4F4F4F;
+     display: block;
+     position: absolute;
+     top: 50%;
+     left: 0;
+   }
+ .headerWin .x-window-header-default-top {
+     background-color:#FFFFFF;
+     border-bottom: 1px solid #BDBDBD!important;
+     border-right: 5px solid #FFF;
+     border-left: 5px solid #FFF;
+     border-top: 5px solid #FFF;
+ 
+ }
+ .headerWin .x-window-body-default{
+     background-color:#FFFFFF;
+     border-color: #FFFFFF!important;
+ }
+ .headerWin .x-window-default{
+     border-color: #FFFFFF!important;
+ }
+ .headerWin .x-window-header-default .x-tool-img {
+     background-color: #333333!important;
+ }    
+ .hr-lines:after{
+     content:" ";
+     height: 1px;
+     width: 165px;
+     background: #4F4F4F;
+     display: block;
+     position: absolute;
+     top: 50%;
+     right: 0;
+   }
+ .copy{
+     background-image: url("icon/bookmark.png");
+     background-size: 15px; background-repeat: no-repeat; background-position: top 0px center;
+     border-style: none;
+ }
+ .back{
+     background-image: url("icon/back.png");
+     background-size: 20px; background-repeat: no-repeat; background-position: top -4px center;
+     border-style: none;
+ }
+ .close{
+     background-image: url("icon/close.png");
+     background-size: 12px; background-repeat: no-repeat; background-position: top 0px center;
+     border-style: none;
+ }
+ .colorPanel .x-panel-header {
+     background-color: #FFFFFF;
+ }
+ 
+ img {border-style: none;}
+ 
