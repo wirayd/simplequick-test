@@ -9,7 +9,9 @@ Ext.define('SuperQuick.view.main.Main', {
     extend: 'Ext.container.Container',
     requires: [
         'SuperQuick.view.main.MainController',
-        'SuperQuick.view.main.MainModel'
+        'SuperQuick.view.main.MainModel',
+        'SuperQuick.view.main.windowMessage.message',
+        'SuperQuick.view.main.windowMessage.listMessage',
     ],
 
     xtype: 'app-main',
@@ -67,7 +69,7 @@ Ext.define('SuperQuick.view.main.Main', {
                     listeners:{
                         toggle(button,pressed,e){
                             if(pressed){
-                                let createView = Ext.create('SimpleQuicks.view.main.windowMessage.listMessage', {
+                                let createView = Ext.create('SuperQuick.view.main.windowMessage.listMessage', {
                                     width:500,
                                     height:500,
                                     buttonmain:button,
