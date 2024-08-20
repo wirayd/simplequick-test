@@ -12,6 +12,7 @@ Ext.define('SuperQuick.view.main.Main', {
         'SuperQuick.view.main.MainModel',
         'SuperQuick.view.main.windowMessage.message',
         'SuperQuick.view.main.windowMessage.listMessage',
+        'SuperQuick.view.main.task.list',
     ],
 
     xtype: 'app-main',
@@ -129,7 +130,7 @@ Ext.define('SuperQuick.view.main.Main', {
                             // console.log('button')
                            
                             if(pressed){
-                                let createView = Ext.create('SimpleQuicks.view.main.task.list', {
+                                let createView = Ext.create('SuperQuick.view.main.task.list', {
                                     width:500,
                                     height:500,
                                     list_urgent:[],
